@@ -1,0 +1,9 @@
+---
+- name: Vérifier l'environnement de supervision
+  hosts: supervision
+  gather_facts: true
+
+  tasks:
+    - name: Afficher le nom de la machine
+      ansible.builtin.debug:
+        msg: "Machine détectée : {{ inventory_hostname }}"
