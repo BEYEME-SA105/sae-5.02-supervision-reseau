@@ -1,0 +1,29 @@
+# Secrets
+.env
+.env.*
+!.env.example
+* vault-password*
+vault.pass
+secrets/
+
+# Clés privées et certificats
+*.pem
+*.key
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+
+# Ansible
+*.retry
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# macOS et éditeurs
+.DS_Store
+.idea/
+.vscode/
