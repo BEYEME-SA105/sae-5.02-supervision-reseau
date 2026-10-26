@@ -19,7 +19,7 @@ Les adresses dynamiques DHCP ont été remplacées par des configurations statiq
 ## Procédure de Configuration Appliquée
 
 ### 1. Ubuntu Server (VM2 & VM3) via Netplan
-La configuration a été figée dans le fichier `/etc/netplan/01-netcfg.yaml` avec l'adressage statique et la route par défaut vers la passerelle réelle (`192.168.1.254`). 
+La configuration a été figée dans le fichier `/etc/netplan/00-installer-config.yaml` avec l'adressage statique et la route par défaut vers la passerelle réelle (`192.168.1.254`). 
 Application via la commande : `sudo netplan apply`.
 
 ### 2. Kali Linux via NetworkManager
