@@ -12,7 +12,7 @@ Les adresses dynamiques DHCP ont été remplacées par des configurations statiq
 
 | Machine | Système d'exploitation | Interface VM | Ancienne IP | Nouvelle IP (Fixe) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Kali** | Kali Linux | `eth0` ou `enp0s3` | `192.168.1.21` | **`192.168.1.232`** |
+| **Kali** | Kali Linux | `eth0`  | `192.168.1.21` | **`192.168.1.232`** |
 | **VM2** | Ubuntu Server | `enp0s3` | `192.168.1.76` | **`192.168.1.230`** |
 | **VM3** | Ubuntu Server | `enp0s3` | `192.168.1.7` | **`192.168.1.231`** |
 
